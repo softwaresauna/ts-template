@@ -1,6 +1,6 @@
-import { hello } from "./hello";
+import {hello, Person} from "./hello";
 
 it("says hello", () => {
 
-  expect(hello("Foo")).toBe("Hello, Foo!");
+  expect(hello(new Person("Foo"))).toBe("Hello, Foo!");
 });
