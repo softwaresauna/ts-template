@@ -1,3 +1,3 @@
-import {hello, Person} from "./hello";
+import { hello, Person } from './hello';
 
-console.log(hello(new Person("World")));
+console.log(hello(new Person('World')));
