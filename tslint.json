@@ -13,6 +13,9 @@
         "no-console": {
             "options": ["true", "log"],
             "severity": "warning"
+        },
+        "quotemark": {
+            "severity": "off"
         }
     },
     "rulesDirectory": []
