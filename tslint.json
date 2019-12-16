@@ -12,6 +12,9 @@
         ],
         "quotemark": {
             "severity": "off"
+        },
+        "interface-name": {
+            "severity": "off"
         }
     },
     "rulesDirectory": []
