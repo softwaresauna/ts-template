@@ -18,7 +18,9 @@ Take the files and use them to start your own Javascript project.
 
 ### Using Yarn
 
-- gather dependencies: `yarn`
-- build: `yarn build`
-- test: `yarn test`
-- start: `yarn start`
+- `yarn` install everything
+- `yarn build` build Javascript from Typescript and put the files in the specified folder
+- `yarn test` run all tests with Jest
+- `yarn start` uses `index.ts` as the entry point
+- `yarn lint` check code style and list errors & warnings
+- `yarn prettier` fix formatting (will make changes, but not commit them)
