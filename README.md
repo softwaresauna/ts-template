@@ -9,7 +9,7 @@ It comes equipped with:
 - a sensible `.gitignore`
 - a couple of dummy (Typescript) source files to demonstrate it works and is testable
 - [Typescript configuration](https://www.typescriptlang.org/)
-- [TSLint](https://palantir.github.io/tslint/) configured with some opinion (and not to conflict with Prettier)
+- [ESLint](https://eslint.org/) configured with some opinion (and not to conflict with Prettier)
 - [Prettier](https://prettier.io/)
   
 ## Usage
