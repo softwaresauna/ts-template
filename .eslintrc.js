@@ -71,9 +71,9 @@ module.exports = {
         "@typescript-eslint/explicit-function-return-type": [
             "error",
             {
-                "allowExpressions": false,
-                "allowTypedFunctionExpressions": false,
-                "allowHigherOrderFunctions": false,
+                "allowExpressions": true,
+                "allowTypedFunctionExpressions": true,
+                "allowHigherOrderFunctions": true,
                 "allowDirectConstAssertionInArrowFunctions": true,
                 "allowConciseArrowFunctionExpressionsStartingWithVoid": true
             }
@@ -188,7 +188,6 @@ module.exports = {
         "id-match": "error",
         "jsdoc/check-alignment": "error",
         "jsdoc/check-indentation": "error",
-        "jsdoc/newline-after-description": "error",
         "max-classes-per-file": [
             "error",
             1
@@ -198,7 +197,7 @@ module.exports = {
         "no-bitwise": "error",
         "no-caller": "error",
         "no-cond-assign": "error",
-        "no-console": "error",
+        "no-console": "warn",
         "no-debugger": "error",
         "no-empty": "error",
         "no-empty-function": "off",
@@ -224,7 +223,6 @@ module.exports = {
             "error",
             "never"
         ],
-        "prefer-arrow/prefer-arrow-functions": "error",
         "prefer-const": "error",
         "radix": "error",
         "require-await": "off",

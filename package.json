@@ -5,8 +5,9 @@
   "main": "src/index.ts",
   "scripts": {
     "start": "yarn build && node out/index.js",
-    "test": "jest --testPathPattern=src && tslint -p .",
-    "build": "rm -rf out/ && tsc"
+    "test": "jest",
+    "build": "rm -rf out/ && tsc",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx ./src --fix"
   },
   "author": "mbjelac",
   "license": "ISC",
